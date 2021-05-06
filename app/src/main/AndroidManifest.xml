@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RecyclerSample">
+        <activity
+            android:name=".flowerDetail.FlowerDetailActivity"
+            android:parentActivityName=".flowerList.FlowerListActivity" />
         <activity android:name=".flowerList.FlowerListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
