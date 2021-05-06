@@ -36,4 +36,6 @@
     <string name="flower15_name">Gardenia</string>
     <string name="flower16_name">Rhododendron</string>
     <string name="flower17_name">Azalea</string>
+    <string name="flower_finder">Flower Finder</string>
+    <string name="flower_string">Flowers</string>
 </resources>

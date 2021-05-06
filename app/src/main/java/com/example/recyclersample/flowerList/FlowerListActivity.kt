@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recyclersample.R
 import com.example.recyclersample.data.Datasource
@@ -20,11 +21,15 @@ class FlowerListActivity : AppCompatActivity() {
 
         val recyclerView: RecyclerView = findViewById(R.id.recycler_view)
 
-        val flowerList = Datasource(this).getFlowerList()
+        val headerAdapter = HeaderAdapter()
         val flowerListAdapter = FlowerListAdapter { flower -> adapterOnClick(flower) }
-        flowerListAdapter.submitList(flowerList)
 
-        recyclerView.adapter = flowerListAdapter
+        val flowerList = Datasource(this).getFlowerList()
+        flowerListAdapter.submitList(flowerList)
+        headerAdapter.updateFlowerCount(flowerList.size)
+
+        val concatAdapter = ConcatAdapter(headerAdapter, flowerListAdapter)
+        recyclerView.adapter = concatAdapter
     }
 
     private fun adapterOnClick(flower: Flower) {
