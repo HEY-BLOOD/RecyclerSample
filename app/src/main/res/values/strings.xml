@@ -1,22 +1,39 @@
 <resources>
     <string name="app_name">RecyclerSample</string>
     <string-array name="flower_array">
-        <item>Lily</item>
-        <item>Poppy</item>
-        <item>Sunflower</item>
-        <item>Freesia</item>
-        <item>Daisy</item>
-        <item>Rose</item>
-        <item>Daffodil</item>
-        <item>Lavender</item>
-        <item>Peony</item>
-        <item>Lilac</item>
-        <item>Dahlia</item>
-        <item>Tulip</item>
-        <item>Dandelion</item>
-        <item>Geranium</item>
-        <item>Gardenia</item>
-        <item>Rhododendron</item>
-        <item>Azalea</item>
+        <item>@string/flower1_name</item>
+        <item>@string/flower2_name</item>
+        <item>@string/flower3_name</item>
+        <item>@string/flower4_name</item>
+        <item>@string/flower5_name</item>
+        <item>@string/flower6_name</item>
+        <item>@string/flower7_name</item>
+        <item>@string/flower8_name</item>
+        <item>@string/flower9_name</item>
+        <item>@string/flower10_name</item>
+        <item>@string/flower11_name</item>
+        <item>@string/flower12_name</item>
+        <item>@string/flower13_name</item>
+        <item>@string/flower14_name</item>
+        <item>@string/flower15_name</item>
+        <item>@string/flower16_name</item>
+        <item>@string/flower17_name</item>
     </string-array>
+    <string name="flower1_name">Lily</string>
+    <string name="flower2_name">Poppy</string>
+    <string name="flower3_name">Sunflower</string>
+    <string name="flower4_name">Freesia</string>
+    <string name="flower5_name">Daisy</string>
+    <string name="flower6_name">Rose</string>
+    <string name="flower7_name">Daffodil</string>
+    <string name="flower8_name">Lavender</string>
+    <string name="flower9_name">Peony</string>
+    <string name="flower10_name">Lilac</string>
+    <string name="flower11_name">Dahlia</string>
+    <string name="flower12_name">Tulip</string>
+    <string name="flower13_name">Dandelion</string>
+    <string name="flower14_name">Geranium</string>
+    <string name="flower15_name">Gardenia</string>
+    <string name="flower16_name">Rhododendron</string>
+    <string name="flower17_name">Azalea</string>
 </resources>
